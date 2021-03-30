@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<script>
+window.onload = function () {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	theme: "dark2",
+	title:{
+		text: "Server Count of ya mom bot"
+	},
+	axisX:{
+		valueFormatString: "DD MMM",
+	},
+	axisY: {
+		title: "Servers",
+		includeZero: true,
+	},
+	data: [{        
+		type: "line",
+      	indexLabelFontSize: 16,
+		dataPoints: [
+			{ x: new Date(2020, 2, 27), y: 122 },
+			{ x: new Date(2020, 2, 28), y: 123 },
+			{ x: new Date(2020, 2, 29), y: 127 },
+		]
+	}]
+});
+chart.render();
+
+}
+</script>	
+	
+	
+	
+<script data-ad-client="ca-pub-6173936237129883" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	
+body {
+  margin: 0;
+  color: #ffffff;
+  background-color:#2C2F33; <!-- literally just the discord color scheme, sue me. -->
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #1D1D1D;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #003297;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #00157F;
+  color: white;
+}
+</style>
+</head>
+<body style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif'">
+
+<div class="topnav">
+  <a href="./index.html">ya mom bot</a>
+  <a href="./contact.html">Contact and Suport</a>
+  <a href="./annoucements.html">Announcements</a>
+  <a href="https://github.com/flopingbird/ya-mom-bot">Source Code</a>
+  <a href="./donate.html">Donate</a>
+  <a class="active" href="./stats.html">Statistics</a></div>
+<div style="padding-left:16px">
+
+</div>
+<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+LACK OF DATA DUE TO DATA STATISTIC TRACKING STARTING 3/27/2021
+</body>
+</html>
